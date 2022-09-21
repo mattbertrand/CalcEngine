@@ -26,6 +26,7 @@ public class Main {
     }
 
     static void executeInteractively() {
+        System.out.println("Welcome to Calcengine");
         System.out.println("Enter an operation and two numbers:");
         Scanner scanner = new Scanner(System.in);
         String userInput = scanner.nextLine();
